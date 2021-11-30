@@ -1,0 +1,119 @@
+:root {
+  --fontbase: "Raleway", sans-serif;
+  --headline1: 500 50px/59px var(--fontbase);
+  --headline2: 500 40px/47px var(--fontbase);
+  --fontbody1: 300 14px/19px var(--fontbase);
+  --fontbody2: 300 24px/29px var(--fontbase);
+  --black: #000000;
+  --black2: #1e1a13;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73px;
+}
+
+.header h1 {
+  font: var(--headline1);
+  text-transform: uppercase;
+}
+
+.hero {
+  height: 724px;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.descripcion {
+  background: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 106px;
+  color: var(--white);
+  padding: 65px 150px;
+}
+
+.descripcion p {
+  font: var(--fontbody1);
+  color: var(--white);
+}
+
+.descripcion img {
+  width: 399px;
+  height: 237px;
+}
+
+.caracteristicas {
+  height: 338px;
+  background: var(--black2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.caracteristicas h2 {
+  font: var(--headline2);
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.caracteristicas-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: var(--white);
+  font: var(--fontbody2);
+}
+
+.item i {
+  font-size: 50px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 150px;
+  background: var(--black);
+}
+
+.galeria img {
+  width: 316px;
+}
+
+.footer {
+  background: var(--black2);
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: var(--fontbody2);
+  color: var(--white);
+}
+
+.footer a {
+  color: var(--white);
+  text-decoration: none;
+}
