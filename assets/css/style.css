@@ -51,9 +51,15 @@
   color: var(--white);
 }
 
+.description-img{
+  min-width: 399px;
+  min-height: 237px ;
+}
+
 .descripcion img {
-  width: 399px;
-  height: 237px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .caracteristicas {
@@ -98,10 +104,18 @@
   justify-content: space-between;
   padding: 75px 150px;
   background: var(--black);
+  gap: 16px;
 }
 
-.galeria img {
-  width: 316px;
+.galeria .img {
+  max-width: 316px;
+  height: 205px;
+}
+
+.galeria img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .footer {
